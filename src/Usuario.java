@@ -139,13 +139,21 @@ public class Usuario extends JFrame{
         }
     }
 
-    public static void main(String[] args) {
+    public void mostrarVentanaUsuario(){
         Usuario usuario1 = new Usuario();
         usuario1.setContentPane(new Usuario().panelUsuario);
         usuario1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         usuario1.setVisible(true);
         usuario1.pack();
     }
+
+   /* public static void main(String[] args) {
+        Usuario usuario1 = new Usuario();
+        usuario1.setContentPane(new Usuario().panelUsuario);
+        usuario1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        usuario1.setVisible(true);
+        usuario1.pack();
+    }*/
 
 
 }

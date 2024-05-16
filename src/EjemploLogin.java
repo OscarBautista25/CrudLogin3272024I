@@ -44,6 +44,8 @@ public class EjemploLogin extends JFrame {
                 validacion = 1;
                 if (validacion == 1) {
                     JOptionPane.showMessageDialog(null, "Usuario validado exitosamente");
+                    Usuario enlace = new Usuario();
+                    enlace.mostrarVentanaUsuario();
                 }
 
             } else {
